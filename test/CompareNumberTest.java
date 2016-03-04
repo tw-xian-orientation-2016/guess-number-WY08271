@@ -32,7 +32,6 @@ public class CompareNumberTest {
     @Test
     public void output_0A4B_when_answer_location_match() {
         String result = compareNumber.compare("1234", "4321");
-
         assertThat(result, is("0A4B"));
     }
 
